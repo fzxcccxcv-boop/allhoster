@@ -20,12 +20,12 @@ for folder in (WORKSPACES_DIR, LOGS_DIR, DB_DIR):
 # =========================================================
 API_ID = int(os.getenv("API_ID", "12345678"))  # Replace or set in ENV
 API_HASH = os.getenv("API_HASH", "your_api_hash_here")
-HOSTER_BOT_TOKEN = os.getenv("HOSTER_BOT_TOKEN", "your_hoster_bot_token_here")
+HOSTER_BOT_TOKEN = os.getenv("HOSTER_BOT_TOKEN", "9071346261:AAEfem_w7JBCvy11cIZAC7vYc6x8Kqq0cYI")
 
 # Optional: Comma-separated Telegram user IDs of platform admins
 ADMIN_IDS = {
     int(x.strip())
-    for x in os.getenv("ADMIN_IDS", "987654321").split(",")
+    for x in os.getenv("ADMIN_IDS", "8684812026").split(",")
     if x.strip().isdigit()
 }
 
