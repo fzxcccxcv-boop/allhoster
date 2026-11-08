@@ -18,8 +18,8 @@ for folder in (WORKSPACES_DIR, LOGS_DIR, DB_DIR):
 # =========================================================
 # 2. TELEGRAM API & BOT CREDENTIALS
 # =========================================================
-API_ID = int(os.getenv("API_ID", "12345678"))  # Replace or set in ENV
-API_HASH = os.getenv("API_HASH", "your_api_hash_here")
+API_ID = int(os.getenv("API_ID", "33491590"))  # Replace or set in ENV
+API_HASH = os.getenv("API_HASH", "35eb3cd440c7ad282cfdc2ce557e37f6")
 HOSTER_BOT_TOKEN = os.getenv("HOSTER_BOT_TOKEN", "9071346261:AAEfem_w7JBCvy11cIZAC7vYc6x8Kqq0cYI")
 
 # Optional: Comma-separated Telegram user IDs of platform admins
