@@ -24,7 +24,7 @@ HOSTER_BOT_TOKEN = os.getenv("HOSTER_BOT_TOKEN", "9071346261:AAEfem_w7JBCvy11cIZ
 
 ADMIN_IDS = {
     int(x.strip())
-    for x in os.getenv("ADMIN_IDS", "987654321").split(",")
+    for x in os.getenv("ADMIN_IDS", "8684812026").split(",")
     if x.strip().isdigit()
 }
 
